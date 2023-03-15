@@ -25,7 +25,7 @@ Check out Taskmate in action on different devices:
 
 ### Mobile View
 
-<img src="taskmate-mobile.jpg" alt="Taskmate mobile view" width="300">
+<img src="https://user-images.githubusercontent.com/91087103/225314202-5b024d8f-9d15-4a1c-8efb-1739afb47bf4.png" alt="Taskmate mobile view" width="300">
 
 ### Tablet View
 
