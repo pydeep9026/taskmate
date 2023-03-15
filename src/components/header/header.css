@@ -1,0 +1,57 @@
+header{
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 70px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    position: relative;
+  }
+  
+  header .logo{
+    display: flex;
+    align-items: center;
+  }
+  
+  header .logo img{
+    max-width: 35px;
+    cursor: pointer;
+  }
+
+  header .user{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid #dfdfdf;
+  }
+  
+  header .logo span{
+    font-size: 22px;
+    margin-left: 7px;
+    cursor: pointer;
+    color: #9536ea;
+  }
+  
+  header .themeSelector img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid #dfdfdf;
+  }
+  
+  header .themeSelector .activeTheme{
+    height: 30px;
+    width: 30px;
+  }

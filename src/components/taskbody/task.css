@@ -1,0 +1,330 @@
+.taskcontainer{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addTask {
+    padding: 20px 15px;
+    border-radius: 10px;
+    background-color:#f8f8f8;
+    max-width: 100%;
+    margin: 10px;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .addTask form{
+    display: flex;
+    gap: 7px;
+    position: relative;
+    flex-direction: column;
+    min-width: 90%;
+  }
+  
+  .addTask form input{
+    flex-grow: 1;
+    padding: 12px 35px;
+    background-color:#dfdfdf;
+    border-radius: 10px;
+    border: none;
+    max-width:90%;
+    font-size: 18px;
+  }
+
+  .priority{
+    padding:14px;
+    border-radius: 10px;
+    background-color:#dfdfdf;
+    border:1px solid #dfdfdf;
+  }
+
+  .priorityform{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .deadlineform{
+    width: 50%
+  }
+
+  .deadline{
+    width: 100%;
+  }
+
+  
+  .addTask form input:focus{
+    outline: 0.5px solid #eaeaea;
+  }
+  
+  .addTask form .fakebutton{
+    background-color: #993fea;
+    position: absolute;
+    color: #FFFFFF;
+    border: none;
+    padding: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    top: 7PX;
+    right: 118px;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size:27px;
+  }
+
+  .addTask form img{
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right:147px;
+  }
+
+  .subform{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+  .addTask form .fakebutton:hover{
+    background-color: #b77ced;
+  }
+
+  .addTask form .formsubmit{
+    min-width:60px ;
+    min-height:60px ;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    right: 0px;
+    top: 15px;
+  }
+
+  .addTask form .formsubmit:hover{
+    background-color:#e5e5e5;
+  }
+
+  .addTask form .formsubmit:active{
+    transform: scale(0.90);
+  }
+
+  .addTask form .formsubmit img{
+    max-width: 90px;
+    max-height: 90px;
+    position: absolute;
+    right:7px;
+    top:8PX;
+  }
+
+
+  .showTask{
+    padding: 20px 15px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin:10px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .showTask p.head{
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:-100px;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .showTask p.head span:first-child{
+    flex-grow: 1;
+  }
+  
+  .showTask .title{
+    font-size: 17px;
+    font-weight: 600;
+    user-select: none;
+    color: #993fea;
+  }
+  
+  .showTask .count{
+    background-color: #dfdfdf;
+    color: #525252;
+    padding: 2px 6px;
+    border-radius: 50%;
+    margin-left: 10px;
+    user-select: none;
+  }
+  
+  .showTask .clearAll{
+    background-color: #993fea;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .showTask .clearAll:hover{
+    background-color: #b77ced;
+  }
+  
+  .showTask ul{
+    margin: 30px 5px 20px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .showTask li{
+    padding: 15px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    gap: 5px;
+    min-width: 300px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .showTask li:hover{
+    background-color: #f8f8f8;
+  }
+
+  .menu{
+    position: absolute;
+    right: 50px;
+    top: 44px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 60px;
+    border: 1px solid #b77ced;
+    background-color:white;
+    padding: 5px;
+    z-index: 1000;
+  }
+
+  .menu span{
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+  }
+
+  .menu span:hover{
+    background-color:#dfdfdf;
+  }
+
+  .bi-three-dots-vertical{
+    position: absolute;
+    right: 20px;
+    top: 26px;
+    font-size: 20px;
+  }  
+  
+  .showTask li p{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .showTask li .highname{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    max-width: 160px;
+    border-radius: 6px;
+    background-color: #ff7c7a;
+    padding: 5px;
+    padding-bottom: 4px;
+  }
+
+  .showTask li .mediumname{
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 160px;
+    border-radius: 7px;
+    background-color: #F9E076;
+    padding: 5px;
+    padding-bottom: 4px;
+  }
+
+  .due{
+    font-size: 11px;
+  }
+
+  .showTask li .lowname{
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 160px;
+    border-radius: 6px;
+    padding-bottom: 5px;
+    background-color: #90EE90;
+    padding: 5px;
+    padding-bottom: 4px;
+  }
+  
+  .showTask li .time{
+    font-size: 12px;
+    color: #737373;
+  }
+  
+  .showTask i.bi-pencil-square{
+    font-size: 18px;
+    color: #1363DF;
+    cursor: pointer;
+  }
+  
+  .showTask i.bi-trash{
+    font-size: 18px;
+    color: #D82148;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .showTask li{
+      width: 80%;
+    }
+    .addTask form input{
+        max-width: 84%;
+    }
+
+    .addTask form .fakebutton{
+        right:105px;
+    }
+
+    .addTask form img{
+        right: 135px;
+    }
+
+  }
+
+  @media only screen and (max-width: 500px){
+    .addTask form .formsubmit{
+        min-height: 45px;
+        min-width: 45px;
+        top: 27px;
+    }
+
+    .addTask form .formsubmit img{
+        max-width: 35px;
+        max-height: 35px;
+        top: 5px;
+    }
+  }

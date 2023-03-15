@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.App{
+  min-height: 100vh;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 10px;
+}
+
+.light{
+  background-color: #FFFFFF;
+  transition: all 500ms;  
+}
+
+.medium{
+  background-color: #EFEFEF;
+  transition: all 500ms;
+}
+
+.dark{
+  background-color: #15202B;
+  transition: all 500ms;
+}
