@@ -33,7 +33,7 @@ Check out Taskmate in action on different devices:
 
 ### Desktop View
 
-<img src="taskmate-desktop.jpg" alt="Taskmate desktop view" width="800">
+<img src="https://user-images.githubusercontent.com/91087103/225314542-ff0b8831-1344-48db-a0c3-1a8a970d049d.png" alt="Taskmate desktop view" width="800">
 
 
 ## 🛠️ Technologies Used
