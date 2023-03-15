@@ -1,7 +1,7 @@
 # 📋 Task Website
 
 📈 [![Repo Size](https://img.shields.io/badge/Repo%20Size-1.2MB-blue?style=flat-square)](https://github.com/pydeep9026/task-website)
-🕒 [![Last Commit](https://img.shields.io/github/last-commit/pydeep9026/task-website?style=flat-square)](https://github.com/yourusername/task-website/commits/master)
+🕒 [![Last Commit](https://img.shields.io/github/last-commit/pydeep9026/task-website?style=flat-square)](https://github.com/pydeep9026/task-website/commits/master)
 
 ## 📝 Description
 
