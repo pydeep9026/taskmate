@@ -46,7 +46,9 @@ Check out Taskmate in action on different devices:
 - 🎨 Icon made by [icons8](https://icons8.com/)
 - 🙌 Project assigned by [Ieee srmist](https://www.ieeesrmist.in/)
 
-## 📥 Installation
+## 📥 Live Demo
+
+- visit :- https://taskmate9026.netlify.app/
 
 
 
