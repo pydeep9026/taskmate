@@ -10,29 +10,25 @@ Task Website is a website designed to help you manage your tasks and stay organi
 ## 🚀 Features
 
 - ✏️ Create, edit, and delete tasks
-- 📅 Set due dates and reminders
-- 📂 Categorize tasks into different lists
-- 👥 Assign tasks to different users
+- 📅 Set due dates/deadlines for all task
+- 📂 sorted tasked based on priority
+- 🌈 Different colored tasks based on priority
+- 🎨 Super clean UI based on Figma UI provided by the club
+- 🌓 Easy to switch dark and light theme
 - 🔍 Search for tasks using keywords
 
-## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
+## 🛠️ Technologies Used
 - React
-- Node.js
-- MongoDB
+- CSS3
+
 
 ## 💡 Credits
 
-- 🎨 Icon made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/)
-- 🙌 Project inspired by [Todoist](https://todoist.com/)
+- 🎨 Icon made by [icons8](https://icons8.com/)
+- 🙌 Project assigned by [Ieee srmist](https://www.ieeesrmist.in/)
 
 ## 📥 Installation
 
-To run this project locally, please follow these steps:
-
-1. Clone the repository:
 
 
