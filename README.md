@@ -15,7 +15,6 @@ Task Website is a website designed to help you manage your tasks and stay organi
 - 🌈 Different colored tasks based on priority
 - 🎨 Super clean UI based on Figma UI provided by the club
 - 🌓 Easy to switch dark and light theme
-- 🔍 Search for tasks using keywords
 
 
 
