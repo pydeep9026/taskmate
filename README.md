@@ -18,6 +18,24 @@ Task Website is a website designed to help you manage your tasks and stay organi
 - 🔍 Search for tasks using keywords
 
 
+
+## 📷 Taskmate in Action
+
+Check out Taskmate in action on different devices:
+
+### Mobile View
+
+<img src="taskmate-mobile.jpg" alt="Taskmate mobile view" width="300">
+
+### Tablet View
+
+<img src="https://user-images.githubusercontent.com/91087103/225313450-0150129a-aba2-46d4-a661-8b30848ce83c.png" alt="Taskmate tablet view" width="600">
+
+### Desktop View
+
+<img src="taskmate-desktop.jpg" alt="Taskmate desktop view" width="800">
+
+
 ## 🛠️ Technologies Used
 - React
 - CSS3
