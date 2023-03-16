@@ -9,7 +9,7 @@ Task Website is a website designed to help you manage your tasks and stay organi
 
 ## 🚀 Features
 
-- ✏️ Create, edit, and delete tasks
+- ✏️ Create, edit, and delete tasks 
 - 📅 Set due dates/deadlines for all task
 - 📂 sorted tasked based on priority
 - 🌈 Different colored tasks based on priority
